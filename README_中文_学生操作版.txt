@@ -1,5 +1,5 @@
-学生操作版：如何让 homework_style_doi_downloader.py 跑起来
-=========================================================
+学生操作版：如何让 homework_style_doi_downloader.py 跑起来 从 sci-hub下载文献
+======================================================================
 
 你只需要做 5 件事：
 
@@ -29,9 +29,9 @@ how_two_step_download_logic_works.md
 
 打开 Terminal。
 
-先进入这个作业文件夹。
+先进入这个作业文件夹。[在terminal里输入 "cd 文件夹地址"]
 
-如果你不知道怎么进入，可以直接把文件夹拖到 Terminal 里，Terminal 会自动显示路径。
+如果你不知道怎么进入，可以直接把文件夹拖到 Terminal 里，Terminal 会自动显示路径。然后再 [在terminal里输入 "cd 文件夹地址"]
 
 然后运行：
 
@@ -41,7 +41,7 @@ python3 -m pip install -r requirements.txt
 
 python3 -m pip install requests beautifulsoup4
 
-如果还是失败，截图 Terminal 的报错信息。
+如果还是失败，截图 Terminal 的报错信息。发给你的kimi/deepseek/gpt...etc.
 
 
 第 2 步：准备 doi.txt
